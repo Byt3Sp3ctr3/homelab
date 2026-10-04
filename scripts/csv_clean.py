@@ -7,7 +7,7 @@ def clean(path_in, path_out):
         w = csv.writer(fo)
         for row in csv.reader(fi):
             row = [c.strip() for c in row]
-            if any(row):
+            if any(row):  # 3h pour une indentation...  
                 w.writerow(row)
 
 if __name__ == "__main__":
