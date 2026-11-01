@@ -12,3 +12,6 @@
 ## Web
 - les outils dev du navigateur, honnêtement ça suffit souvent
 - les archives du web pour les pages qui ont disparu
+
+## À tester
+- un CMS auto-hébergé pour un petit forum privé
