@@ -1,0 +1,14 @@
+services:
+  db:
+    image: mariadb:11
+    restart: unless-stopped
+    env_file: .env
+    volumes: [db:/var/lib/mysql]
+  wordpress:
+    image: wordpress:6
+    restart: unless-stopped
+    env_file: .env
+    ports: ["8080:80"]
+    depends_on: [db]
+    volumes: [wp:/var/www/html]
+volumes: {db: {}, wp: {}}
