@@ -14,4 +14,4 @@
 - les archives du web pour les pages qui ont disparu
 
 ## À tester
-- un CMS auto-hébergé pour un petit forum privé
+- ~~un CMS auto-hébergé pour un petit forum privé~~ fait
