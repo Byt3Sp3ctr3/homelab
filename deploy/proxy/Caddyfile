@@ -1,0 +1,7 @@
+# Reverse proxy devant les services (les noms de domaine sont dans l'environnement)
+{$FORUM_HOST} {
+    reverse_proxy wordpress:80
+}
+{$STATUS_HOST} {
+    reverse_proxy kuma:3001
+}
